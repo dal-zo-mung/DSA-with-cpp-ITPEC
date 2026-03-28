@@ -20,3 +20,6 @@
 
 **_A Stack of Characters_** ပုဒ်စာ ~~A little bit harder!~~
 [2024S_FE-B_Q13.cpp](2024S_FE-B_Q13.cpp)
+
+**_Vector Similarity Calculation_** 
+[2024S_FE-B_Q14.cpp](2024S_FE-B_Q14.cpp)
