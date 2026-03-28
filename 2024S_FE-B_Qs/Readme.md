@@ -10,7 +10,7 @@
 [2024S_FE-B_Q8.cpp](2024S_FE-B_Q8.cpp)
 
 **_Binary Tree_** ကိုမှ **stack (FIFO)** သုံးထားတဲ့ ပုဒ်စာ
-[2024S_FE-B_Q9.cpp](2024S_FE-B-Q-9.cpp)
+[2024S_FE-B_Q9.cpp](2024S_FE-B-Q9.cpp)
 
 **_Selection sorting_** ကိုသုံးထားတဲ့ ပုဒ်စာ
 [2024S_FE-B_Q11.cpp](2024S_FE-B_Q11.cpp)
