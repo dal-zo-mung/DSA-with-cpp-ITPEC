@@ -1,8 +1,8 @@
-#include <iostream>
-#include <cmath>
+#include<iostream>
+#include<cmath>
 using namespace std;
 
-double calcSim(int v1[], int v2[], int n) {
+double calcSim(int v1[], int v2[], int n){
     int i, x, y;
     int sxx = 0;
     int syy = 0;
@@ -19,14 +19,14 @@ double calcSim(int v1[], int v2[], int n) {
     return (double)sxy / sqrt(sxx * syy);
 }
 
-int main() {
+int main(){
     int v1[] = {2, 2, 1, 0, 4};
     int v2[] = {3, 1, 1, 1, 2};
     int n = 5;
 
     double result = calcSim(v1, v2, n);
 
-    cout << "Similarity = " <<round(result*10)/10<< endl;
+    cout<<"Similarity = "<<round(result*10)/10<<endl;
 
     return 0;
 }
