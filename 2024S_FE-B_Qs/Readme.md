@@ -16,4 +16,4 @@
 [2024S_FE-B_Q11.cpp](main/2024S_FE-B_Qs/2024S_FE-B_Q11.cpp)
 
 **_Palindrome_** + while loop condition
-[2024S_FE-B_Q12.cpp](main/2024S_FE-B_Qs/2024S_FE-B_Q12.cpp))
+[2024S_FE-B_Q12.cpp](2024S_FE-B_Qs/2024S_FE-B_Q12.cpp)
