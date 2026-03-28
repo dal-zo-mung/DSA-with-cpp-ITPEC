@@ -4,7 +4,7 @@
 [2024S_FE-B_Q6.cpp](2024S_FE-B-Q6.cpp)
 
 **_Fibonacci Sequence_** သုံးထားတဲ့ ပုဒ်စာ
-[2024S_FE-B_Q7.cpp](2024S_FE-B_Q7.cpp)
+[2024S_FE-B_Q7.cpp](2024S_FE-B-O7.cpp)
 
 **_Stack_** သုံးထားတဲ့ ပုဒ်စာ
 [2024S_FE-B_Q8.cpp](2024S_FE-B_Q8.cpp)
