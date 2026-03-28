@@ -1,7 +1,6 @@
-#include <iostream>
-#include <stack>
-
-
+#include<iostream>
+#include<stack>
+#include<string>
 using namespace std;
 
 // define the bracket pairs in a global 2D array!
@@ -34,7 +33,7 @@ char get_closing_bracket(char c) {
 }
 
 bool are_brackets_balanced(string expr) {
-    stack<char> s; // 
+    stack<char> s; // for stores single characters
     
     for (char c : expr) {
         if (is_opening_bracket(c)) {
