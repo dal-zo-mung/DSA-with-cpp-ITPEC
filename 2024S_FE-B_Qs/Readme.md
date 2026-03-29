@@ -23,3 +23,6 @@
 
 **_Vector Similarity Calculation_** 
 [2024S_FE-B_Q14.cpp](2024S_FE-B_Q14.cpp)
+
+**_Stack_** သုံးထားတဲ့ ပုဒ်စာ
+[2024S_FE-B_Q8.cpp](2024S_FE-B_Q8.cpp)
