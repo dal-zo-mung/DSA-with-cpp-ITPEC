@@ -12,6 +12,9 @@
 **_Binary Tree_** ကိုမှ **stack (FIFO)** သုံးထားတဲ့ ပုဒ်စာ
 [2024S_FE-B_Q9.cpp](2024S_FE-B-Q9.cpp)
 
+**_Linked List_**
+[2024S_FE-B_Q10.cpp](2024S_FE-B_Q10.cpp)
+
 **_Selection sorting_** ကိုသုံးထားတဲ့ ပုဒ်စာ
 [2024S_FE-B_Q11.cpp](2024S_FE-B_Q11.cpp)
 
