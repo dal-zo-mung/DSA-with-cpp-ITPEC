@@ -28,5 +28,4 @@
 [2024S_FE-B_Q14.cpp](2024S_FE-B_Q14.cpp)
 
 **_Sliding window algorithm (Sliding algorithm)_**
-[2024S_FE-B_Q15.cpp](2024S_FE-B_Q15.cpp)
-<details>"Sliding window algorithm ကို သုံးပြီး စာသားတွေထဲက N-gram တွေကို ထုတ်ပေးတဲ့ ပုစ္ဆာ ဖြစ်ပါတယ်။ NLP(Natural Language Processing) ရဲ့ အခြေခံ သဘောတရားတွေကို လေ့လာဖို့အတွက် အထောက်အကူပြုပါတယ်။"</details>
+[2024S_FE-B_Q15.cpp](2024S_FE-B_Q15.cpp) <details>"Sliding window algorithm ကို သုံးပြီး စာသားတွေထဲက N-gram တွေကို ထုတ်ပေးတဲ့ ပုစ္ဆာ ဖြစ်ပါတယ်။ NLP(Natural Language Processing) ရဲ့ အခြေခံ သဘောတရားတွေကို လေ့လာဖို့အတွက် အထောက်အကူပြုပါတယ်။"</details>
