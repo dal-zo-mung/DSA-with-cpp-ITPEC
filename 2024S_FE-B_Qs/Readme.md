@@ -1,5 +1,8 @@
 # ITPEC FE-PM / 2024S_FE-B_Q's Answers 
 
+**_If else statement_**
+[2024S_FE-B_Q1.cpp](2024S_FE-B_Q1.cpp)
+
 **Counting the represent of 1 _(bitwise)_**
 [2024S_FE-B_Q6.cpp](2024S_FE-B-Q6.cpp)
 
