@@ -1,4 +1,4 @@
-#Purpose of this work
+# Purpose of this work
 
 ITPEc က တစ်နှစ်အတွင်း April နဲ့ October နှစ်ခါ IP and FE စာမေးပွဲ ကျင်းပလျက်ရှိပါတယ်။ 
 ကျွန်တော့် အနေနဲ့ 2026 April FE exam အတွက် လေ့ကျင့်ခဲ့တဲ့၊ ကျွန်တော်လုပ်ထားခဲ့ 2024 နဲ့ 2025 က FE (evening) မှာ မေးခဲ့တဲ့ (chapter-7 | DSA အပိုင်း) Old Questions ကို suedo ကနေ C++ programming language နဲ့ ရေးထားတာ‌တွေကို Open source အနေနဲ့ sharing လုပ်ထားခြင်းဖြစ်ပါတယ်ဗျ။
