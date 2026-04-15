@@ -3,7 +3,7 @@
 **_If else statement_**
 [2024S_FE-B_Q1.cpp](2024S_FE-B_Q1.cpp)
 
-**__If else statement_**
+**_If else statement_**
 [2024S_FE-B_Q2.cpp](2024S_FE-B_Q2.cpp)
 
 **Counting the represent of 1 _(bitwise)_**
