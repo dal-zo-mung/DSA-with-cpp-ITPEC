@@ -6,6 +6,9 @@
 **_If else statement_**
 [2024S_FE-B_Q2.cpp](2024S_FE-B_Q2.cpp)
 
+**_for loop and Mod ကိုသုံးပြီး 1 to 100 က even number ရှာခြင်း_**
+[2024S_FE-B_Q3.cpp](2024S_FE-B_Q3.cpp)
+
 **Counting the represent of 1 _(bitwise)_**
 [2024S_FE-B_Q6.cpp](2024S_FE-B-Q6.cpp)
 
