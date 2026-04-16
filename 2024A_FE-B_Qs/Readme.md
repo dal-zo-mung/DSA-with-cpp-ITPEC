@@ -252,6 +252,20 @@ Move to 4: Output 4 ထုတ်မယ်။ visited[4] ကို true ပေး
 _Output အစဉ်: 1, 2, 3, 5, 4_
 </details>
 
+**10. _Linked List ပုစ္ဆာ_**
+[2024A_FE-B_Q10.cpp](2024A_FE-B_Q10.cpp)
+
+<details>
+
+  **Linked List (Node အသစ်ထည့်ခြင်း)**
+
+ဒီပုစ္ဆာက Singly-linked list ထဲကို Node အသစ်တစ်ခု ထည့်တဲ့ logic ပါ။
+
+Logic: Node အသစ်ကို လက်ရှိနေရာမှာ ထည့်မယ်ဆိုရင် အရင်ရှိနေတဲ့ Node (prev) ရဲ့ next pointer ကို Node အသစ်ဆီကို ညွှန်ပေးရပါမယ်။
+
+ပုံထဲက Code မှာ newNode.next <- prev.next ဆိုပြီး နောက်က Node နဲ့ အရင်ချိတ်လိုက်ပါတယ်။ <br/>
+ပြီးရင် ရှေ့က Node (prev) နဲ့ ပြန်ချိတ်ဖို့အတွက် prev.next ကို newNode ဖြစ်အောင် ပြောင်းပေးရပါမယ်။
+</details>
 
 
 
