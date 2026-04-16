@@ -223,6 +223,34 @@ _Final output: J M F K E L_
 <hr/>
 </details>
 
+**9. _Graph Traversal (DFS) ပုစ္ဆာ_**
+[2024A_FE-B_Q9.cpp](2024A_FE-B_Q9.cpp)
+<details>
+  
+**Q9: Graph Traversal (Depth-First Search - DFS)**
+
+ဒီပုစ္ဆာက Graph တစ်ခုကို ဘယ်လို Trace လိုက်ရမလဲဆိုတာ မေးတာပါ။ <br/>
+ပေးထားတဲ့ Code က Recursion ကို သုံးထားတဲ့အတွက် ဒါဟာ DFS (အနက်ကို အရင်သွားတဲ့စနစ်) ဖြစ်ပါတယ်။
+
+Trace လုပ်ကြည့်ရင် (traverse(1) က စပါမယ်):
+
+Start at 1: Output 1 ထုတ်မယ်။ visited[1] ကို true ပေးမယ်။  <br/>
+1 နဲ့ ဆက်နေတာက 2 နဲ့ 4 ရှိပါတယ်။ Code ထဲက loop အရ ငယ်ရာကစစစ်တော့ 2 ကို အရင်သွားပါတယ်။  <br/> <br/>
+
+Move to 2: Output 2 ထုတ်မယ်။ visited[2] ကို true ပေးမယ်။  <br/>
+2 နဲ့ ဆက်နေတာက 1, 3, 5 ရှိပါတယ်။ 1 က visit လုပ်ပြီးသားမို့ ကျော်မယ်။ ငယ်ရာကစစစ်တော့ 3 ကို အရင်သွားပါတယ်။ <br/>
+
+Move to 3: Output 3 ထုတ်မယ်။ visited[3] ကို true ပေးမယ်။ <br/>
+3 နဲ့ ဆက်နေတာ 2 ပဲရှိပြီး visit လုပ်ပြီးသားမို့ 3 ကနေ 2 ဆီ ပြန်တက်မယ် (Backtrack)။ <br/>  <br/>
+
+Back at 2: ခုနက 3 ပြီးသွားပြီမို့ နောက်တစ်လုံးဖြစ်တဲ့ 5 ကို စစ်ပါတယ်။ <br/>
+
+Move to 5: Output 5 ထုတ်မယ်။ visited[5] ကို true ပေးမယ်။ <br/> 
+5 နဲ့ ဆက်နေတာ 2 နဲ့ 4 ရှိပါတယ်။ 2 က visit ပြီးသားမို့ 4 ကို သွားပါတယ်။ <br/>
+Move to 4: Output 4 ထုတ်မယ်။ visited[4] ကို true ပေးမယ်။ <br/>
+
+_Output အစဉ်: 1, 2, 3, 5, 4_
+</details>
 
 
 
