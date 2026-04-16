@@ -4,36 +4,25 @@ using namespace std;
 void primeFactors(int num){
 	int i;
 	i = 2;
-	
-	// ထပ် ပေါင်းဖြည့် စွက်ချက်
-	if(num%i == 0){	
+	//	ပုစ္ဆာက ပေးထားချက်။
+	do{				
+		if(num % i == 0){
+			num = num/i;
+			cout<<i;
 		
-		//	ပုစ္ဆာက ပေးထားချက်။
-		do{				
-			if(num % i == 0){
-				num = num/i;
-				cout<<i;
-			
-				if(num>1){
-						cout<<"x";				
-					}
+			if(num>1){
+					cout<<"x";				
+				}
 			}	
-			else{
-				i = i + 1;
-			}	
-		}
-		while(num % i == 0);
+		else{
+			i = i + 1;
+		}	
 	}
-	
-	// ထပ် ပေါင်းဖြည့် စွက်ချက်
-	else{ 
-		cout<<num;
-	}
-
+	while(num>1);
 }
 
 int main(){
-	int numbers = 5;
+	int numbers = 78;
 	
 	primeFactors(numbers);
 	
