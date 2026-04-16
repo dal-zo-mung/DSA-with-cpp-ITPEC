@@ -187,8 +187,41 @@ Code ထဲမှာ max ရဲ့ ပထမအပိုင်းက lcs(str1, s
 **ဒါကြောင့် B = n ပါ။**
 </details>
 
+**8. _Priority Queue (ဦးစားပေး တန်းစီစနစ်)_**
+[2024A_FE-B_Q8.cpp](2024A_FE-B_Q8.cpp)
+<details>
+  
+**Q8: Priority Queue (ဦးစားပေး တန်းစီစနစ်)**
 
+Logic က-
+Priority နိမ့်လေ (ဥပမာ- 1)၊ ဦးစားပေး မြင့်လေ ဖြစ်ပါတယ်။ <br/>
+ဦးစားပေး တူနေရင် အရင်ဝင်တဲ့သူက အရင်ထွက် ရပါမယ် FIFO (First-in, First-out)။
 
+Step-by-step Trace ရင်
+
+enqueue("E", 3), ("F", 2), ("G", 1), ("H", 1)
+လက်ရှိ Queue: [G(1), H(1), F(2), E(3)]
+dequeue() (2 ကြိမ်): Priority 1 အရင်ထွက်ရမယ်။ G နဲ့ H ထွက်သွားမယ်။
+enqueue("I", 1), ("J", 1)
+
+လက်ရှိ Queue: [I(1), J(1), F(2), E(3)]
+dequeue() (1 ကြိမ်): Priority 1 ထဲက အရင်ဝင်တဲ့ I ထွက်သွားပါပြီ။
+
+လက်ရှိ Queue: [J(1), F(2), E(3)]
+enqueue("K", 2), ("L", 3), ("M", 1)
+
+လက်ရှိ Queue: [J(1), M(1), F(2), K(2), E(3), L(3)] (Priority 1 အရင်၊ ပြီးမှ 2၊ ပြီးမှ 3)
+
+နောက်ဆုံး Output ထွက်မည့်အစဉ်:
+
+Priority 1: J ထွက်မယ်၊ ပြီးရင် M ထွက်မယ်။
+Priority 2: F ထွက်မယ်၊ ပြီးရင် K ထွက်မယ်။
+Priority 3: E ထွက်မယ်၊ ပြီးရင် L ထွက်မယ်။
+
+_Final output: J M F K E L_
+
+<hr/>
+</details>
 
 
 
