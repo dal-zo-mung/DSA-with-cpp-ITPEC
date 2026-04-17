@@ -77,8 +77,15 @@ B = count ← count + 1 ဖြစ်ပါတယ်။
 </details>
 
 
-
-
+**6. _class + method interaction (OOP)_**
+[2025A_FE-B_Q6.cpp](2025A_FE-B_Q6.cpp)
+<details>
+  
+**Main Note**
+<br/><br/>
+Rectangle has (length, width)<br/>
+Cuboid has (length, width, height)
+</details>
 
 
 
