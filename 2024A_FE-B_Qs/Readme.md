@@ -293,6 +293,33 @@ Collision Handling: အကယ်၍ index တစ်ခုတည်းမှာ k
 <hr/>
 </details>
 
+**14. _Quantile (Percentile) calculation_**
+[2024A_FE-B_Q14.cpp](2024A_FE-B_Q14.cpp)
+
+<details>
+  
+**၁။ findRank function ရဲ့ အလုပ်**
+<br/><br/>
+သူ့ရဲ့ အလုပ်က "Index ကို အရင်တွက်ပြီး အဲဒီ Index မှာရှိတဲ့ Value ကို return ပြန်ပေးဖို့" ဖြစ်ပါတယ်။ <br/>
+သူက j ဆိုတဲ့ index ကို အရင်တွက်ပါတယ်။ (ဥပမာ- j=2) <br/>
+ပြီးရင် return sortedData[j+1] ဆိုပြီး အဲဒီအခန်းထဲက Value (ဥပမာ- 0.3) ကိုပဲ အပြင်ကို ထုတ်ပေးလိုက်တာပါ။ <br/>
+
+ဒါကြောင့် findRank ကို ခေါ်လိုက်ရင် index ဂဏန်း ထွက်မလာဘဲ 0.1, 0.3, 0.5 စတဲ့ data တွေပဲ ထွက်လာပါတယ်။
+
+**၂။ summarize function ရဲ့ အလုပ်**
+<br/><br/>
+သူ့ရဲ့ အလုပ်ကတော့ "findRank ကနေ ရလာတဲ့ Value တွေကို စုစည်းပြီး Array တစ်ခုအဖြစ် ပြန်ပေးဖို့" ဖြစ်ပါတယ်။ <br/>
+သူက loop ပတ်ပြီး findRank ကို တစ်ခါစီ ခေါ်ပါတယ်။ <br/>
+findRank က ပေးလိုက်တဲ့ Value တွေကို rankData ဆိုတဲ့ array ထဲကို တစ်ခုချင်းစီ ထည့်ပါတယ်။ <br/>
+
+နောက်ဆုံးမှာ အဲဒီ value တွေ ပါတဲ့ array ကို return ပြန်ပေးတာပါ။
+
+<hr/>
+</details>
+
+
+
+
 
 
 
