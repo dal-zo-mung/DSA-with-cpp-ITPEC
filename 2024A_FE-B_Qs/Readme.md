@@ -60,7 +60,7 @@ B အတွက် (ကူပွန်အရေအတွက် တွက်ခြ
 </details>
 
 **3. _Second Largest Element / included(array and if else statement methods)_**
-[2024A_FE-B_Q3.cpp](2024A_FE-B_Q2.cpp)
+[2024A_FE-B_Q3.cpp](2024A_FE-B_Q3.cpp)
 <details>
   
 **၁။ Logic ရှင်းလင်းချက်**
@@ -134,7 +134,7 @@ y (ထပ်ကိန်း / Exponent) နေရာမှာ 1 / n ရှိရ
 </details>
 
 **6. _Quadratic Equation (နှစ်ထပ်ကိန်း ညီမျှခြင်း) + (if else statement)_**
-[2024A_FE-B_Q6](2024A_FE-B_Q6)
+[2024A_FE-B_Q6.cpp](2024A_FE-B_Q6.cpp)
 <details>
 (Q6) ကတော့ သင်္ချာမှာ သင်ရလေ့ရှိတဲ့ Quadratic Equation (နှစ်ထပ်ကိန်း ညီမျှခြင်း) $ax^2 + bx + c = 0$ ရဲ့ အဖြေ (Roots) တွေကို ရှာတဲ့ Program ဖြစ်ပါတယ်။
  <br/>
