@@ -265,9 +265,15 @@ Logic: Node အသစ်ကို လက်ရှိနေရာမှာ ထည
 
 ပုံထဲက Code မှာ newNode.next <- prev.next ဆိုပြီး နောက်က Node နဲ့ အရင်ချိတ်လိုက်ပါတယ်။ <br/>
 ပြီးရင် ရှေ့က Node (prev) နဲ့ ပြန်ချိတ်ဖို့အတွက် prev.next ကို newNode ဖြစ်အောင် ပြောင်းပေးရပါမယ်။
+
+<hr/>
 </details>
 
+**11. _Insertion Sort_**
+[2024A_FE-B_Q11.cpp](2024A_FE-B_Q11.cpp)
 
+**12. _Palindrome ပုစ္ဆာ_**
+[2024A_FE-B_Q12.cpp](2024A_FE-B_Q12.cpp)
 
 
 
