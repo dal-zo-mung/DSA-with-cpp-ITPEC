@@ -90,16 +90,53 @@ Cuboid has (length, width, height)
 
 </details>
 
-**9. _BFS (Breadth-First Search) using a queue_**
-[2025A_FE-B_Q9.cpp](2025A_FE-B_Q9.cpp)
-
-
 **7. _Linked List_**
 [2025A_FE-B_Q7.cpp](2025A_FE-B_Q7.cpp)
 
-**8. _class + method interaction (OOP)_**
+**8. _Stack (push/pop)_**
 [2025A_FE-B_Q8.cpp](2025A_FE-B_Q8.cpp)
 
-**9. _class + method interaction (OOP)_**
+**9. _BFS (Breadth-First Search) using a queue_**
 [2025A_FE-B_Q9.cpp](2025A_FE-B_Q9.cpp)
+<details>
+  
+**BFS (Breadth-First Search) -> Queue** <br/><br/>
+BFS က ဘေးတိုက် ဖြန့်ရှာတာ ဖြစ်တဲ့အတွက် FIFO (First In, First Out) ကို သုံးပါတယ်။<br/>
+FIFO: အရင်ဆုံး တွေ့တဲ့ Node တွေကို အရင်ဆုံး စစ်ဆေးတာပါ။<br/>
+အနီးဆုံးကောင်တွေကို အရင်စီလိုက်တယ် (First come)၊ ပြီးမှ သူတို့ကို အရင်စစ်တယ် (First serve) ဆိုတဲ့ ပုံစံပါ။<br/>
+
+<hr/>
+</details>
+
+**10. _Linked List_**
+[2025A_FE-B_Q10.cpp](2025A_FE-B_Q10.cpp)
+<details>
+
+**၁။ ကွက်လပ် A ကို စဉ်းစားခြင်း (Loop ပတ်ပုံ)** 
+<br/><br/>
+Linked List တစ်ခုကို ရှာဖွေတဲ့အခါ အစ (head) ကနေ အဆုံးအထိ တစ်ခုချင်းစီ သွားရပါတယ်။ <br/>
+x variable က နောက်ဆုံးအထိ ရောက်သွားရင် ဒါမှမဟုတ် list က အလွတ်ဖြစ်နေရင် undefined ဖြစ်သွားပါလိမ့်မယ်။ <br/>
+Loop ဆက်ပတ်နေဖို့ဆိုရင် x က အလွတ်မဖြစ်နေရပါဘူး။
+<br/><br/>
+ဒါကြောင့် A = not undefined ဖြစ်ပါတယ်။
+<br/><br/>
+**၂။ ကွက်လပ် B ကို စဉ်းစားခြင်း (ကြားညှပ်ထည့်ပုံ)**
+<br/><br/>
+Element တစ်ခု (ဥပမာ- x) ရဲ့ အနောက်မှာ element အသစ် (y) ကို ထည့်ချင်ရင် အဆင့် ၂ ဆင့် ရှိပါတယ် - 
+<br/><br/>
+
+**ပထမအဆင့်**<br/>
+အသစ်ဝင်လာမယ့် y ရဲ့ next (အဆက်) ကို x ရဲ့ မူလအဆက်ဆီ အရင်ပေးလိုက်ရမယ်။ <br/>
+(ဒါမှ list က ပြတ်မသွားမှာပါ)။<br/>
+ပြီးမှ x ရဲ့ next ကို y ဆီ ပြောင်းချိတ်ရပါမယ်။<br/>
+
+**ဒုတိယအဆင့်**<br/>
+Code ထဲမှာ x.next ← y ဆိုတာ _ဒုတိယအဆင့်_ ပါ။ <br/>
+ပထမအဆင့်ဖြစ်တဲ့ Box B မှာ y ရဲ့ အဆက်ကို x ရဲ့ မူလအဆက် ဖြစ်တဲ့ x.next ဆီ ပေးရပါမယ်။
+<br/><br/>
+ထို့ကြောင့် B = x.next ဖြစ်ပါတယ်။
+
+<hr/>
+</details>
+
 
