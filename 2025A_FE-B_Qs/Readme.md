@@ -94,7 +94,12 @@ Cuboid has (length, width, height)
 [2025A_FE-B_Q9.cpp](2025A_FE-B_Q9.cpp)
 
 
+**7. _Linked List_**
+[2025A_FE-B_Q7.cpp](2025A_FE-B_Q7.cpp)
 
+**8. _class + method interaction (OOP)_**
+[2025A_FE-B_Q8.cpp](2025A_FE-B_Q8.cpp)
 
-
+**9. _class + method interaction (OOP)_**
+[2025A_FE-B_Q9.cpp](2025A_FE-B_Q9.cpp)
 
