@@ -46,5 +46,5 @@ _B = y ^ z_
 **9. _Calculation_**
 [2025S_FE-B_Q9.cpp](2025S_FE-B_Q9.cpp)
 
-**10. _Calculation_**
+**10. _Doubly Linked List_**
 [2025S_FE-B_Q10.cpp](2025S_FE-B_Q10.cpp)
